@@ -123,3 +123,47 @@ nav.navbar.navbar-expand-lg.navbar-light.bg {
 }
 
 /* cources section end */
+
+/*  feature-section start */
+.feature-section{
+    display: inline-block;
+}
+.feature-section ul{
+    
+}
+.feature-section ul li{
+    list-style: none;
+    display: block;
+    position: relative;
+    left: -6%;
+}
+.feature-section ul i{
+    font-size: 20px;
+    color: orange;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+
+
+/*  feature-section  end  */
+
+/*  about area css start */
+.about-area{
+    padding: 100px 0;
+}
+
+.about-left-content{}
+.about-left-content h1{
+    color: #4255A4;
+    font-size: 3rem;
+}
+.about-left-content p{
+    font-size: 1rem;
+}
+iframe{
+    margin-top: 48px;
+    width: 500px;
+    height: 400px;
+}
+/*  about area css  end  */
