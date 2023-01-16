@@ -11,15 +11,17 @@
     width: 100%;
 }
 .banner-left-content{
+   text-align: center;
     padding: 90px 0;
 }
 .banner-left-content h1{
     color: whitesmoke;
     font-weight: 600;
-    font-size: 1rem;
-    margin-bottom: 1.2rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 .banner-left-content p{
+    margin-left:80px ;
     font-size: 10px;
     width: 200px;
     font-weight: 700;
