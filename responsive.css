@@ -1,0 +1,87 @@
+
+
+/*  responsive css start */
+
+@media only screen and (max-width: 480px) {
+   /*  banner section css start */
+.banner-section{
+    background: url(./img/h1_hero.png) no-repeat center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+.banner-left-content{
+    padding: 90px 0;
+}
+.banner-left-content h1{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+}
+.banner-left-content p{
+    font-size: 10px;
+    width: 200px;
+    font-weight: 700;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+.banner-left-content a{
+     margin-bottom: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FF9F67;
+    padding: 10px 20px ;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+/*  banner section css  end  */
+  }
+
+  @media only screen and (max-width: 480px) {
+    /* cources section start */
+.cource-header{ 
+    text-align: center;
+}
+.cource-header h2{
+    color: #4255A4;
+    font-size: 1em;
+}
+.cource-img img{
+    width: 100%;
+    max-width: 100%;
+}
+.cource-content{
+    width: 100%;
+    height: 90vh;
+}
+.cource-content h6 {
+    position: relative;
+    left: 2%;
+    padding: 20px 0;
+}
+.cource-content h4 {
+    position: relative;
+    left: 2%;
+}
+.cource-content p {
+    width: 200px;
+    line-height: 1rem;
+    left: 2%;
+}
+.cource-content a {
+    left: 2%;
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px 30px;
+}
+
+.rating i{
+    left: 2%;
+}
+
+/* cources section end */
+  }
+/*  responsive css  end */

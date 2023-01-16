@@ -1,0 +1,125 @@
+/*  google front start */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+/*  google front s end */
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*  default css start */
+nav.navbar.navbar-expand-lg.navbar-light.bg {
+    background-color:rgba(108,115,255,255);
+}
+.btn-outline-success {
+    background: #FF9F67;
+    background-color: #FF9F67;
+    border-color:#FF9F67 ;
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 10px 20px ;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 241 241 / 90%);
+    font-weight: bold;
+}
+
+
+
+/*  default css end  */
+
+/*  banner section css start */
+
+
+.banner-section{
+    background: url(./img/h1_hero.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.banner-left-content{
+    padding: 150px 0;
+}
+.banner-left-content h1{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 4rem;
+    margin-bottom: 1.2rem;
+}
+.banner-left-content p{
+    font-weight: 700;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+.banner-left-content a{
+     margin-bottom: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FF9F67;
+    padding: 15px 35px ;
+    color: whitesmoke;
+    border-radius: 5px;
+    font-weight: 800;
+}
+/*  banner section css  end  */
+
+/* cources section start */
+.cource-header{
+    padding: 80px 0;
+    text-align: center;
+}
+.cource-header h2{
+    color: #4255A4;
+    font-size: 3em;
+}
+.cource-img img{
+    max-width: 100%;
+}
+.cource-content{
+    width: 100%;
+    height: 70vh;
+    background-color: #f3f0ee;
+}
+.cource-content h6 {
+    position: relative;
+    left: 5%;
+    padding: 20px 0;
+}
+.cource-content h4 {
+    position: relative;
+    left: 5%;
+    color: #4255A4;
+}
+.cource-content p {
+    line-height: 1.5rem;
+    position: relative;
+    left: 5%;
+}
+.cource-content a {
+    position: relative;
+    left: 5%;
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 80px;
+    border: 1px solid #4255A4;
+    border-color: #4255A4;
+    color:#4255A4;
+    transition: .4s ease-in-out;
+}
+.cource-content a:hover{
+    background-color: #FF9F67;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+}
+.rating p span {
+    color: orange;
+}
+.rating i{
+    position: relative;
+    left: 5%;
+    color: orange;
+}
+
+/* cources section end */
